@@ -131,33 +131,33 @@ $white-color: #ffffff;
           width:100%;
           display:flex;
           position: relative;
-          &__text {
+          .form__message{
             height: 50px;
             width:100%;
             color: #434a54;
             border-style: none;
             padding: 0 40px 0 10px;
           }
-          &__image {
+          .form__mask__image{
             cursor:pointer;
             font-size: 1.3rem;
             position: absolute;
             top:10px;
             right:10px;
 
-            &__file{
+            .hidden{
               display:none;
             }
           }
         }
-      } .submit-btn {
-        width:100px;
-        height:50px;
-        padding: 0 30px;
-        margin-left: 15px;
-        background-color: #38aef0;
-        color: $white-color;
-        cursor: pointer;
+      } .submit__btn{
+          width:100px;
+          height:50px;
+          padding: 0 30px;
+          margin-left: 15px;
+          background-color: #38aef0;
+          color: $white-color;
+          cursor: pointer;
       }
     }
   }
