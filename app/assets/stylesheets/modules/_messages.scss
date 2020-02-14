@@ -102,7 +102,9 @@ $white-color: #ffffff;
       height:calc(100vh - 190px);
       background-color:#fafafa;
       padding-left:40px;
+      overflow: scroll;
         .message__text-list{
+          
           display:flex;
           padding-top:35px;
           .list__user-name{
