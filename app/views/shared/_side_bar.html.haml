@@ -6,10 +6,10 @@
       .top-items__icons
         .top-items__tweet
         = link_to new_group_path , class: "tweet__btn top-item__btn" do
-          = fa_icon('far', 'edit') 
+          %i.fa.fa-edit
         .top-items__config
         = link_to edit_user_path(current_user), class: "config__btn top-item__btn" do
-          = fa_icon('fas', 'cog')
+          %i.fa.fa-cog
   .side-ber__group-list
     - current_user.groups.each do |group|
       .group-list__item
